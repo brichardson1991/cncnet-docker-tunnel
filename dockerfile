@@ -1,5 +1,5 @@
 # Start with the Ubuntu base image
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 # Install Common Software Properties
 RUN apt-get update && \
